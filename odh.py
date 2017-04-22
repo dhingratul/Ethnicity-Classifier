@@ -34,7 +34,7 @@ for i in range(len(names)):
                 # print(i,j)
                 temp = dic[names[i][j:j+k]]
                 dic[names[i][j:j+k]] = [
-                        temp[0]+ctr, temp[1]+ctr*float(train[i, 5]),
+                        temp[0]+ctr, temp[1] + ctr * float(train[i, 5]),
                         temp[2]+ctr * float(train[i, 6]),
                         temp[3]+ctr * float(train[i, 7]),
                         temp[4]+ctr * float(train[i, 8]),
