@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+Train a model to classify ethnicity based on census data
+
 Created on Thu Apr 13 16:31:53 2017
 
 @author: dhingratul
